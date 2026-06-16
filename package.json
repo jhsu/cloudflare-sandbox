@@ -2,6 +2,7 @@
   "name": "ai-sdk-sandbox-cloudflare",
   "type": "module",
   "version": "0.0.0",
+  "packageManager": "pnpm@11.5.1",
   "private": false,
   "description": "Cloudflare Sandbox provider for AI SDK Harness",
   "exports": {
