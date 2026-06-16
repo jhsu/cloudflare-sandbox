@@ -2,7 +2,7 @@
   "name": "ai-sdk-sandbox-cloudflare",
   "type": "module",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "description": "Cloudflare Sandbox provider for AI SDK Harness",
   "exports": {
     ".": "./dist/index.mjs",
@@ -14,9 +14,16 @@
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "pnpm build && changeset publish"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.31.0",
     "@cloudflare/workers-types": "^4.20260615.1",
     "@types/node": "^25.9.3",
     "tsdown": "^0.22.0",
