@@ -17,7 +17,7 @@
     "dev": "tsdown --watch",
     "type-check": "tsc --noEmit",
     "changeset": "changeset",
-    "version": "changeset version",
+    "changeset:version": "changeset version",
     "release": "pnpm build && changeset publish"
   },
   "publishConfig": {

@@ -44,7 +44,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: pnpm version
+          version: pnpm exec changeset version
           publish: pnpm dlx --package=npm@latest --package=@changesets/cli changeset publish
           createGithubReleases: true
         env:
