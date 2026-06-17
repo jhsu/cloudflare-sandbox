@@ -1,5 +1,11 @@
 # ai-sdk-sandbox-cloudflare
 
+## 0.0.2
+
+### Patch Changes
+
+- 833bd9f: Expand Cloudflare Sandbox README examples to match the Vercel sandbox documentation style.
+
 ## 0.0.1
 
 ### Patch Changes
